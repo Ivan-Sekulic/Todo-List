@@ -6,5 +6,5 @@ React Native application excercise
 1. Clone code
 2. do "npm i" command in terminal
 3. run app from terminal with "expo start" command
-4. Download expo go from app store for lunching the application on mobile device
+4. Download "Expo go" from app store for lunching the application on mobile device
 5. Open app and scan QR code from terminal

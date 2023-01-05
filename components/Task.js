@@ -1,4 +1,5 @@
 import React from "react";
+
 import { View, Text, StyleSheet, ViewBase, TouchableOpacity } from "react-native";
 
 const Task = (props) => {
@@ -10,11 +11,20 @@ const Task = (props) => {
 
         </View>
         <View style={styles.circular}></View>
+
+import { View, Text, StyleSheet } from "react-native";
+
+const Task = (props) => {
+    return (
+    <View>
+        <Text>{props.text}</Text>
+
     </View>
     )
 }
 
 const styles = StyleSheet.create({
+
     item:{
         backgroundColor: '#FFF',
         padding: 15,
@@ -47,6 +57,9 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         borderRadius: 5,
     },
+
+
+
 }); 
 
 export default Task;

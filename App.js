@@ -13,6 +13,8 @@ export default function App() {
         <Task text = {'task 1'}/>
         <Task text = {'task 2'}/>
 
+        <Task text = {'task 3'}/>
+
       </View>
 
      </View>
@@ -34,6 +36,11 @@ const styles = StyleSheet.create({
   sectionTitle:{
     fontSize:24,
     fontWeight:'bold'
+
+  },
+  items:{
+    marginTop: 30, 
+
   },
   items:{},
 });
